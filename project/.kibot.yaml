@@ -27,6 +27,14 @@ outputs:
       output: 'schematics.pdf'
 
 
+  - name: qr_lib
+    type: qr_lib
+    dir: '../project/lib/qr'
+    options:
+      qrs:
+        - text: 'url-to-current-board-documentation'
+
+
   - name: pcb_print
     type: pcb_print
     options:

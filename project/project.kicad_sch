@@ -274,13 +274,13 @@
   (symbol (lib_id "-local:LOGO_KMS") (at 157.48 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4170c982-7626-48b7-b62a-1f9e2fa7e5fc)
-    (property "Reference" "#G1" (id 0) (at 157.48 166.4123 0)
+    (property "Reference" "G1" (id 0) (at 157.48 166.4123 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "LOGO_KMS" (id 1) (at 157.48 194.2677 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 157.48 180.34 0)
+    (property "Footprint" "-qr:QR" (id 2) (at 157.48 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 157.48 180.34 0)
@@ -312,7 +312,7 @@
 
   (symbol_instances
     (path "/4170c982-7626-48b7-b62a-1f9e2fa7e5fc"
-      (reference "#G1") (unit 1) (value "LOGO_KMS") (footprint "")
+      (reference "G1") (unit 1) (value "LOGO_KMS") (footprint "-qr:QR")
     )
     (path "/62316d7f-2776-43b9-a5e7-49fa1178d68c"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "-local:MountingHole_1.35mm_M1.2_Pad")
