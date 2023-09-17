@@ -27,6 +27,14 @@ outputs:
       output: 'schematics.pdf'
 
 
+  - name: qr_lib
+    type: qr_lib
+    options:
+      output: 'lib/footprint/qr.kicad_mod'
+      qrs:
+        - text: 'url-to-current-board-documentation'
+
+
   - name: pcb_print
     type: pcb_print
     options:
